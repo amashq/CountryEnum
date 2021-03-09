@@ -26,7 +26,7 @@ public class Main {
             try {
                 ctr = Country.getByRuName(input);
             } catch (NoSuchCountryException e) {
-                System.out.println("Страны '<" + input + ">' не существует");
+                System.out.println("Страны '" + input + "' не существует");
             }
         }
 
